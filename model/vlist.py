@@ -1,5 +1,5 @@
 from configparser import ConfigParser
-#from mysql.connector import MySQLConnection, Error
+from mysql.connector import MySQLConnection, Error
 
 def read_db_config(filename='db.ini', section='mysql1'):
     parser = ConfigParser()
